@@ -1,4 +1,8 @@
 
+
+
+
+
 /*
 
 var cacheID = 'restaurant-001';
@@ -12,7 +16,7 @@ self.addEventListener('install', event => {
                     "/index.html",
                     "/restaurant.html",
                     "/css/styles.css",
-                    "/data/restaurant.json",
+                    "/data/restaurants.json",
                     "/js/",
                     "/js/dbhelper.js",
                     "/js/main.js",
@@ -26,6 +30,14 @@ self.addEventListener('install', event => {
             })
     );
 });
+
+********************************
+********************************
+********************************
+********************************
+********************************
+********************************
+********************************
 
 self.addEventListener("fetch", event => {
     let cacheRequest = event.request;
